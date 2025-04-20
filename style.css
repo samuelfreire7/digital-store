@@ -1,3 +1,59 @@
+header{
+    .logo{
+        display: flex;
+        align-items: center; 
+        gap: 15px; 
+        color: #C92071;
+        
+      }
+      
+      .logo img {
+        width: 33px; height: 33px;
+      }
+
+      nav a{ 
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0px 15px;
+    }
+    
+    nav a:hover{
+        text-decoration: underline;
+        color: #C92071;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
 footer {
     background-color: black;
     color: white;
