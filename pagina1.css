@@ -52,6 +52,39 @@ header {
 
 }
 
+section {
+
+
+    .texto_na_imagem {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: bold;
+
+        h1 {
+            font-family: Inter;
+            font-weight: bolder;
+            font-size: 64px;
+            
+
+
+
+
+        }
+
+
+    }
+
+    .tenis_banner {
+        position: absolute;
+        top: 20px;
+        left: 45%;
+    }
+}
+
 
 
 
