@@ -68,10 +68,29 @@ section {
             font-family: Inter;
             font-weight: bolder;
             font-size: 64px;
-            
+        }
+
+        p {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 19.44px;
+            line-height: 36.72px;
+            letter-spacing: 0.81px;
+
+        }
+
+        .oferta {
+            color: #C92071;
+
+        }
 
 
-
+        .botao1 {
+            width: 237px;
+            height: 51px;
+            border-radius: 8.64px;
+            background-color: #C92071;
+            color: white;
 
         }
 
@@ -82,6 +101,12 @@ section {
         position: absolute;
         top: 20px;
         left: 45%;
+    }
+
+    .ornamento {
+        position: absolute;
+        top: 50px;
+        left: 90%;
     }
 }
 
