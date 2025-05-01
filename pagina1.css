@@ -114,17 +114,43 @@ section {
 }
 
 .coleçoes{
+
 display: grid;
 grid-template-columns: 300px 300px 300px;
 justify-content: center;
+ .card{
+    background-color: #D8E3F2;
+
+    display: flex;
+ }
+ 
+   
+ }
+
+
+.textocolecao{
+
+    text-align: left;
+    margin-left: 1px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    width: 283px;
+    height: 38px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #474747
+
+
 
 
 
 }
 
-
-
-
+.blusa{
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+}
 
 
 
