@@ -99,13 +99,15 @@ footer {
     .informaçao,
     .categoria,
     .contato {
+        cursor: pointer;
         margin-left: 110px;
         display: flex;
         flex-direction: column;
         justify-content: left;
         gap: 15px;
         font-family: Inter;
-        h3{
+    
+        {
             font-size: 18px;
         }
         p{
@@ -239,4 +241,8 @@ footer {
 .itens-cadastro{
    display: flex;
   
+}
+#maps{
+        color: white;
+        text-decoration: none;
 }
