@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#cad{
+min-height: 100vh;
+border: 2px;
+border-color: black;
+background:linear-gradient(to top, white, rgb(126, 126, 245))
+}
+form {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 583px;
+    height: 399px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
