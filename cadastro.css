@@ -6,7 +6,8 @@ body {
 min-height: 100vh;
 border: 2px;
 border-color: black;
-background:linear-gradient(to top, white, rgb(126, 126, 245))
+background:linear-gradient(to top, white, rgb(126, 126, 245));
+display: flex;
 }
 form {
     border: 1px solid black;
@@ -15,6 +16,8 @@ form {
     height: 399px;
     margin-top: 150px;
     margin-left: 100px;
+    text-align: center;
+    background-color: #ffffff;
 }
 * {
     margin: 0;
@@ -120,4 +123,15 @@ footer {
     justify-content: center;
     align-content: center;
     margin-bottom: 1rem;
+}
+.tenis {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0;
+}
+.imgt {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+margin-right: 70px;
 }
