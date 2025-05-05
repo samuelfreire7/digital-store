@@ -337,9 +337,11 @@ section {
 
 
 footer {
-    background-color: black;
+    background-color: #1f1f1f;
     color: white;
     padding: 72px 104px 10px;
+    display: grid;
+    justify-content: center;
 
 
     .sera {
@@ -353,18 +355,35 @@ footer {
     .categoria,
     .contato {
         margin-left: 110px;
-
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 15px;
+        font-family: Inter;
+        h3{
+            font-size: 18px;
+        }
+        p{
+            font-size: 16px;
+        }
+        p:hover{
+            color: #C92071;
+            }
+        
     }
 
     .logod {
         margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
 
     }
 
     .logos {
-        img {
+        /* img {
             width: 20px;
-        }
+        } */
 
         display: flex;
         gap: 20px;
@@ -373,6 +392,7 @@ footer {
 
     .copy {
         text-align: center;
+        font-size: 13px;
     }
 
 
@@ -400,4 +420,12 @@ footer {
 
 .search-bar button:hover {
     background-color: #333;
+}
+.divFinal {
+    margin: 75px 0px 0px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 1rem;
 }
