@@ -44,14 +44,6 @@ header {
         text-decoration: underline;
         color: #C92071;
     }
-    /* #linksHeader {
-        width: 423px;
-        height: 29px;
-        margin-top: 48px;
-        margin-left: 100px;
-        display: flex;
-        justify-content: space-between;
-    } */
 
 }
 
@@ -126,9 +118,7 @@ footer {
     }
 
     .logos {
-        /* img {
-            width: 20px;
-        } */
+   
 
         display: flex;
         gap: 20px;
@@ -158,11 +148,11 @@ footer {
     width: 499px;
     height: 60px;
     margin-top: 34px;
-    margin-left: 10px;
     border: 0px;
     border-radius: 8px 0 0 8px;
     background-color: #4747470a;
     padding-inline-start: 25px;
+    font-family: sans-serif;
 }
 
 
@@ -202,21 +192,26 @@ footer {
     width: 102px;
     height: 28px;
     margin-top: 50px;
-    margin-left: 48px;
+    margin-left: 10px;
     text-decoration: underline;
     color: black;
+    font-family: sans-serif;
+    font-size: large;
+
 }
 #botaoEntrar {
     width: 114px;
     height: 40px;
     margin-top: 44px;
-    margin-left: 30px;
+    margin-left: 15px;
     color: #f5f5f5;
     background-color: #C92071;
     border: 0px;
     border-radius: 8px;
     box-shadow: #333;
     cursor: pointer;
+    font-size: medium;
+
 }
 #botaoEntrar:hover{
     background-color: #4f061e;
@@ -232,7 +227,7 @@ footer {
     width: 33px;
     height: 29px;
     margin-top: 47px;
-    margin-left: 70px;
+    margin-left: 10px;
     margin-right: 100px;
 }
 
@@ -245,9 +240,9 @@ footer {
         color: white;
         text-decoration: none;
 }
-#colecoes{
+ #colecoes{
     text-align: center;
-    font-weight: 700px;
+    font-weight: 70px;
     font-size: 21px ;
   }
 #imagens-colecao{
@@ -259,8 +254,19 @@ margin-top: 50px;
 gap: 80px;
 text-align: center;
 font-family: sans-serif;
-}
+cursor: pointer;
 
+
+
+}
+#imagens-colecao img:hover{
+    background-color: #dddddd;
+box-shadow: #dddddd;
+border-radius: 50%;
+padding: 10px;
+
+
+} 
 
 
 
