@@ -39,6 +39,7 @@ footer {
         }
         p{
             font-size: 16px;
+            cursor: pointer
         }
         p:hover{
             color: #C92071;
