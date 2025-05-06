@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +23,7 @@ body {
 
 header {
     width: 100%;
+
     .logo {
         display: flex;
         align-items: center;
@@ -159,6 +163,25 @@ section {
             padding: 5px;
 
         }
+
+        a {
+            position: absolute;
+            top: 75%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            width: 153px;
+            height: 48px;
+            border-radius: 8px;
+            background-color: #F5F5F5;
+            color:#C92071;
+            border: none;
+            font-family: inter;
+            font-size: 16px;
+            text-align: center;
+            
+
+        }
+
     }
 
     .card-title {
