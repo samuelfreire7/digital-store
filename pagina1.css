@@ -10,10 +10,16 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    /* width: 100vw; */
+}
+
+body {
+    max-width: 100vw;
 }
 
 header {
+    width: 100%;
     .logo {
         display: flex;
         align-items: center;
@@ -31,7 +37,7 @@ header {
         color: rgb(0, 0, 0);
         text-decoration: none;
         font-weight: bold;
-        padding: 0px 15px;
+        padding: 0px 0px;
     }
 
     nav a:hover {
@@ -42,7 +48,7 @@ header {
     .itens {
         margin: 0;
         display: flex;
-        gap: 20px;
+        gap: 0;
         align-items: center;
         padding: 0;
         border: 30px;
@@ -215,8 +221,8 @@ section {
 #barraPesquisa {
     width: 499px;
     height: 60px;
-    margin-top: 34px;
-    margin-left: 10px;
+    /* margin-top: 34px;
+    margin-left: 10px; */
     border: 0px;
     border-radius: 8px 0 0 8px;
     background-color: #4747470a;
@@ -232,8 +238,10 @@ section {
 
 .inicio {
     display: flex;
-    gap: 100px;
-    margin: 20px 3px;
+    gap: 0;
+    margin: 15px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .Pesquisar {
@@ -243,8 +251,8 @@ section {
 .imagem-principal {
     width: 253px;
     height: 44px;
-    margin-top: 42px;
-    margin-left: 104px;
+    /* margin-top: 42px;
+    margin-left: 104px; */
     cursor: pointer;
 }
 
@@ -265,8 +273,8 @@ section {
 #cadastro {
     width: 102px;
     height: 28px;
-    margin-top: 50px;
-    margin-left: 48px;
+    /* margin-top: 50px;
+    margin-left: 48px; */
     text-decoration: underline;
     color: black;
 }
@@ -274,8 +282,8 @@ section {
 #botaoEntrar {
     width: 114px;
     height: 40px;
-    margin-top: 44px;
-    margin-left: 30px;
+    /* margin-top: 44px;
+    margin-left: 30px; */
     color: #f5f5f5;
     background-color: #C92071;
     border: 0px;
@@ -298,15 +306,17 @@ section {
     justify-content: end;
     width: 33px;
     height: 29px;
-    margin-top: 47px;
+    /* margin-top: 47px;
     margin-left: 70px;
-    margin-right: 100px;
+    margin-right: 100px; */
 }
 
 
 .itens-cadastro {
     display: flex;
-
+    /* justify-content: space-around; */
+    gap: 20px;
+    align-items: center;
 }
 
 #maps {
@@ -342,7 +352,7 @@ footer {
     padding: 72px 104px 10px;
     display: grid;
     justify-content: center;
-
+    width: 100%;
 
     .sera {
         display: grid;
@@ -360,17 +370,20 @@ footer {
         justify-content: left;
         gap: 15px;
         font-family: Inter;
-        h3{
+
+        h3 {
             font-size: 18px;
         }
-        p{
+
+        p {
             font-size: 16px;
             cursor: pointer
         }
-        p:hover{
+
+        p:hover {
             color: #C92071;
-            }
-        
+        }
+
     }
 
     .logod {
@@ -422,6 +435,7 @@ footer {
 .search-bar button:hover {
     background-color: #333;
 }
+
 .divFinal {
     margin: 75px 0px 0px;
     display: grid;
