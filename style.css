@@ -46,8 +46,11 @@ header {
     }
 
 }
+.linksheader {
 
-
+    display: flex;
+    gap: 20px;
+}
 
 
 
@@ -153,6 +156,7 @@ footer {
     background-color: #4747470a;
     padding-inline-start: 25px;
     font-family: sans-serif;
+  
 }
 
 
@@ -164,6 +168,7 @@ footer {
 .inicio{
     display: flex;
     gap: 100px;
+    align-items: center;
 }
 .Pesquisar{
     color: #666666;
@@ -234,6 +239,8 @@ footer {
 
 .itens-cadastro{
    display: flex;
+   align-items: center;
+   gap: 10px;
   
 }
 #maps{
@@ -259,7 +266,26 @@ cursor: pointer;
 
 
 }
+.linksheader{
+ margin-left: 102px;
+gap: 43px;
+font-size: medium;
+font-family: sans-serif;
+text-decoration: none;
+cursor: pointer;
+box-shadow: #333;
+}
+.linksheader a:hover{
+    color: #C92071;
+    text-decoration: dashed;
+
+}
 
 
 
-
+.linksheader a{
+    color: #474747;
+}
+.links{
+    text-decoration: none;
+}
