@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
@@ -167,7 +166,7 @@ header.itens {
 }
 
 
-.carrossel{
+.carrossel {
 
 
     .texto_na_imagem {
@@ -293,12 +292,12 @@ header.itens {
             height: 48px;
             border-radius: 8px;
             background-color: #F5F5F5;
-            color:#C92071;
+            color: #C92071;
             border: none;
             font-family: inter;
             font-size: 16px;
             text-align: center;
-            
+
 
         }
 
@@ -346,6 +345,33 @@ header.itens {
 
 
 
+
+
+
+
+
+.em_alta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    img {
+        width: 290px;
+    }
+
+}
+
+.presos {
+    display: flex;
+}
+
+.descontos {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.tt{
+    background-color: rgb(211, 211, 211);
+}
 
 
 
