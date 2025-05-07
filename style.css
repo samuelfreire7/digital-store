@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -51,6 +55,206 @@ header {
     display: flex;
     gap: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#barraPesquisa {
+    width: 499px;
+    height: 60px;
+    border: 0px;
+    border-radius: 8px 0 0 8px;
+    background-color: #4747470a;
+    padding-inline-start: 25px;
+}
+
+
+
+
+
+.search-bar button:hover {
+    background-color: #333;
+}
+.inicio {
+    display: flex;
+    gap: 0;
+    margin: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.Pesquisar{
+    color: #666666;
+}
+.imagem-principal {
+    width: 253px;
+    height: 44px;
+    cursor: pointer;
+}
+#botaoLupa {
+
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-color: #4747470a;
+    border: 0px;
+    border-radius: 0 8px 8px 0;
+    width: 60px;
+    height: 60px;
+    margin-top: 34px;
+    margin-left: 0;
+}
+#cadastro {
+    width: 102px;
+    height: 28px;
+    text-decoration: underline;
+    color: black;
+}
+#botaoEntrar {
+    width: 114px;
+    height: 40px;
+    color: #f5f5f5;
+    background-color: #C92071;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: #333;
+    cursor: pointer;
+}
+
+#botaoEntrar:hover{
+    background-color: #4f061e;
+}
+#iconeCarrinho {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGjSURBVHgB1ZTLUcMwFEWvFPakBFEBySowLAgVpATSAXYFCQ0QpwKGCggV4A3DdwaXoHTgJTDE4sof4iERTow3nJlEH9u6eu9dCfjviKJzr7yhBOKEv0MdhGgIueyIEfWu2d4+KD9AQ3wL9PRk7xOmawAtYXbRELI8ONJBxMU1I1FoiJ2fEwtgTtXBk/IuUQMDyTomU9ZRrxXIaRuIPmphVAuiw86JS0DbP1sT1IBuHGeGyZAr+rSpbV+V10YNJOQ+m6gYr0QgcgEjWtZJMTbYpYHxD3QQZN8n3JiInQLIU/RuFjZF83UCPIyzNNblOFyKiQ6fXFUKEAUH1s4opaHApvWDBkFq9QyJBnkDrHtsbJFToPAvfonAhUx3n6YsLs2tYq8LevkYW8JDNrBtnsIUx0EzUxZr8qh8gy0lEojz8oxwvUor9tn0sR1hk1f9RjgjeFbeiOEOeYimxSFy8aL8U16SYy436+kLv/xsbZGtn7k4P4ASEGeogIt7SF1nvDvldSoFujqIBUxo+6zyDSpglOnJZTqisoMqYaHVpu/WvRz/zBeFHY3gm22JsQAAAABJRU5ErkJggg==);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    width: 33px;
+    height: 29px;
+}
+
+.itens-cadastro {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#maps{
+        color: white;
+        text-decoration: none;
+}
+ #colecoes{
+    text-align: center;
+    font-weight: 70px;
+    font-size: 21px ;
+    font-family: inter;
+  }
+#imagens-colecao{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+margin-top: 50px;
+gap: 80px;
+text-align: center;
+font-family: inter;
+cursor: pointer;
+}
+#imagens-colecao img{
+    padding: 12px;
+}
+
+
+
+#imagens-colecao img:hover{
+    transform: translateY(-10px); 
+    transition: transform 0.35 ease, box-shadow 0.5s ease;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+border-radius: 50%;
+
+}
+
+h3{
+    text-align: center;
+    font-family: inter;
+}
+
+
+
+
+
+
+.linksheader{
+gap: 43px;
+font-size: medium;
+font-family: sans-serif;
+text-decoration: none;
+cursor: pointer;
+padding: 25px;
+margin-left: 31px;
+}
+.linksheader a:hover{
+    color: #C92071;
+    text-decoration: dashed;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+
+}
+
+
+
+.linksheader a{
+    color: #474747;
+}
+.links{
+    text-decoration: none;
+}
+.home{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #C92071;
+    text-underline-offset: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -144,148 +348,3 @@ footer {
     margin-bottom: 1rem;
 }
 
-
-
-
-#barraPesquisa {
-    width: 499px;
-    height: 60px;
-    margin-top: 34px;
-    border: 0px;
-    border-radius: 8px 0 0 8px;
-    background-color: #4747470a;
-    padding-inline-start: 25px;
-    font-family: sans-serif;
-  
-}
-
-
-
-
-.search-bar button:hover {
-    background-color: #333;
-}
-.inicio{
-    display: flex;
-    gap: 100px;
-    align-items: center;
-}
-.Pesquisar{
-    color: #666666;
-}
-.imagem-principal{
-    width: 253px;
-    height: 44px;
-    margin-top: 42px;
-    margin-left: 104px;
-    cursor: pointer;
-}
-#botaoLupa {
-
-    background-position: center;
-    background-size: 24px;
-    background-repeat: no-repeat;
-    background-color: #4747470a;
-    border: 0px;
-    border-radius: 0 8px 8px 0;
-    width: 60px;
-    height: 60px;
-    margin-top: 34px;
-    margin-left: 0;
-}
-#cadastro {
-    width: 102px;
-    height: 28px;
-    margin-top: 50px;
-    margin-left: 10px;
-    text-decoration: underline;
-    color: black;
-    font-family: sans-serif;
-    font-size: large;
-
-}
-#botaoEntrar {
-    width: 114px;
-    height: 40px;
-    margin-top: 44px;
-    margin-left: 15px;
-    color: #f5f5f5;
-    background-color: #C92071;
-    border: 0px;
-    border-radius: 8px;
-    box-shadow: #333;
-    cursor: pointer;
-    font-size: medium;
-
-}
-#botaoEntrar:hover{
-    background-color: #4f061e;
-}
-#iconeCarrinho {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGjSURBVHgB1ZTLUcMwFEWvFPakBFEBySowLAgVpATSAXYFCQ0QpwKGCggV4A3DdwaXoHTgJTDE4sof4iERTow3nJlEH9u6eu9dCfjviKJzr7yhBOKEv0MdhGgIueyIEfWu2d4+KD9AQ3wL9PRk7xOmawAtYXbRELI8ONJBxMU1I1FoiJ2fEwtgTtXBk/IuUQMDyTomU9ZRrxXIaRuIPmphVAuiw86JS0DbP1sT1IBuHGeGyZAr+rSpbV+V10YNJOQ+m6gYr0QgcgEjWtZJMTbYpYHxD3QQZN8n3JiInQLIU/RuFjZF83UCPIyzNNblOFyKiQ6fXFUKEAUH1s4opaHApvWDBkFq9QyJBnkDrHtsbJFToPAvfonAhUx3n6YsLs2tYq8LevkYW8JDNrBtnsIUx0EzUxZr8qh8gy0lEojz8oxwvUor9tn0sR1hk1f9RjgjeFbeiOEOeYimxSFy8aL8U16SYy436+kLv/xsbZGtn7k4P4ASEGeogIt7SF1nvDvldSoFujqIBUxo+6zyDSpglOnJZTqisoMqYaHVpu/WvRz/zBeFHY3gm22JsQAAAABJRU5ErkJggg==);
-    background-position-x: left;
-    background-position-y: bottom;
-    background-size: 24px;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: end;
-    width: 33px;
-    height: 29px;
-    margin-top: 47px;
-    margin-left: 10px;
-    margin-right: 100px;
-}
-
-
-.itens-cadastro{
-   display: flex;
-   align-items: center;
-   gap: 10px;
-  
-}
-#maps{
-        color: white;
-        text-decoration: none;
-}
- #colecoes{
-    text-align: center;
-    font-weight: 70px;
-    font-size: 21px ;
-  }
-#imagens-colecao{
-    display: flex;
- justify-content: center;
- align-items: center;
- padding: 10px;
-margin-top: 50px;
-gap: 80px;
-text-align: center;
-font-family: sans-serif;
-cursor: pointer;
-
-
-
-}
-.linksheader{
- margin-left: 102px;
-gap: 43px;
-font-size: medium;
-font-family: sans-serif;
-text-decoration: none;
-cursor: pointer;
-box-shadow: #333;
-}
-.linksheader a:hover{
-    color: #C92071;
-    text-decoration: dashed;
-
-}
-
-
-
-.linksheader a{
-    color: #474747;
-}
-.links{
-    text-decoration: none;
-}

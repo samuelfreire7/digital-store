@@ -64,6 +64,74 @@ header {
 
 }
 
+
+.linksheader{
+    gap: 43px;
+    font-size: medium;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 25px;
+    margin-left: 31px;
+    display: flex;
+    }
+    .linksheader a:hover{
+        color: #C92071;
+        text-decoration: dashed;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 6px;
+    
+    }
+    
+    .linksheader a{
+        color: #474747;
+    }
+    .links{
+        text-decoration: none;
+    }
+    .home{
+        text-decoration: underline;
+        text-decoration-thickness: 4px;
+        text-decoration-color: #C92071;
+        text-underline-offset: 6px;
+    }
+
+    #colecoes{
+        text-align: center;
+        font-weight: 70px;
+        font-size: 21px ;
+        font-family: inter;
+      }
+    #imagens-colecao{
+        display: flex;
+     justify-content: center;
+     align-items: center;
+    margin-top: 50px;
+    gap: 80px;
+    text-align: center;
+    font-family: inter;
+    cursor: pointer;
+    }
+    #imagens-colecao img{
+        padding: 12px;
+    }
+    
+    
+    
+    #imagens-colecao img:hover{
+        transform: translateY(-10px); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 20px rgb(189, 189, 189);
+    border-radius: 50%;
+    
+    }
+    
+    h3{
+        text-align: center;
+        font-family: inter;
+    }
+    
 section {
 
 
