@@ -12,18 +12,34 @@
 <body>
 
     <section id="cad">
-        <form action="">
+        <form>
             <div class="formulario">
                 <h1>Crie sua conta</h1>
-                <p>Já possui uma conta? Entre <a href="cadastro.html" style="color: rgba(71, 71, 71, 1);">aqui</a>.</p>
-                <div>
-                    <h5>Email*</h5>
-                    <input type="text" placeholder="Insira seu email" style="font-size: medium; margin: ;">
-                </div>
+        
+                <p>
+                    Já possui uma conta? Entre 
+                    <a href="cadastro.html" style="color: rgba(71, 71, 71, 1);">aqui</a>.
+                </p>
+        
+                <!-- Bloco de entrada de email -->
+                <label for="email">Email*</label>
+                <input 
+                    type="email" 
+                    placeholder="Insira seu email" 
+                    style="font-size: medium;" 
+                    id="email"
+                    name="email"
+                    required
+                >
+        
+                <!-- Botão -->
+                <button type="submit" class="criar-conta">Criar Conta</button>
+        
+                <!-- Outras formas -->
                 <div class="outras-formas-de-se-cadastrar">
                     <p>Ou faça login com</p>
-                    <a href=""><img src="images/gmail 1.png" alt=""></a>
-                    <a href=""><img src="images/facebook 1.png" alt=""></a>
+                    <a href="#"><img src="images/gmail 1.png" alt="Login com Gmail"></a>
+                    <a href="#"><img src="images/facebook 1.png" alt="Login com Facebook"></a>
                 </div>
             </div>
         </form>
@@ -76,4 +92,5 @@
         </div>
     </footer>
 </body>
+
 </html>
