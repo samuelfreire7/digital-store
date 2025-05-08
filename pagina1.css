@@ -205,12 +205,12 @@ section {
             height: 48px;
             border-radius: 8px;
             background-color: #F5F5F5;
-            color:#C92071;
+            color: #C92071;
             border: none;
             font-family: inter;
             font-size: 16px;
             text-align: center;
-            
+
 
         }
 
@@ -768,5 +768,3 @@ footer {
     align-content: center;
     margin-bottom: 1rem;
 }
-
-
