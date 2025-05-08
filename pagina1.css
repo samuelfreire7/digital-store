@@ -616,7 +616,40 @@ section {
 
 }
 
+#colecoes{
+    text-align: center;
+    font-weight: 70px;
+    font-size: 21px ;
+    font-family: inter;
+  }
+#imagens-colecao{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+margin-top: 50px;
+gap: 80px;
+text-align: center;
+font-family: inter;
+cursor: pointer;
+}
+#imagens-colecao img{
+    padding: 12px;
+}
 
+
+
+#imagens-colecao img:hover{
+    transform: translateY(-10px); 
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+border-radius: 50%;
+
+}
+
+h3{
+    text-align: center;
+    font-family: inter;
+}
 
 
 
