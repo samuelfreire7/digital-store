@@ -194,7 +194,7 @@ cursor: pointer;
 
 #imagens-colecao img:hover{
     transform: translateY(-10px); 
-    transition: transform 0.35 ease, box-shadow 0.5s ease;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 border-radius: 50%;
 
@@ -225,6 +225,8 @@ margin-left: 31px;
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    transform: translateY(-3px); 
 
 }
 

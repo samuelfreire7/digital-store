@@ -62,7 +62,7 @@ header.itens {
     cursor: pointer;
 }
 
-}
+
 
 section {
 
@@ -663,8 +663,6 @@ footer {
 .search-bar button {
     padding: 8px 12px;
     background-color: #ffffff;
-    /* cor de fundo do botão /
-    color: #fff;             / cor do ícone ou texto */
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -684,3 +682,40 @@ footer {
     align-content: center;
     margin-bottom: 1rem;
 }
+
+
+.linksheader{
+    gap: 43px;
+    font-size: medium;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 25px;
+    margin-left: 31px;
+    }
+    .linksheader a:hover{
+        color: #C92071;
+        text-decoration: dashed;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 6px;
+        transition: transform 0.3s ease, box-shadow 0.5s ease;
+        transform: translateY(-3px); 
+    
+    }
+    
+    
+    
+    .linksheader a{
+        color: #474747;
+    }
+    .links{
+        text-decoration: none;
+    }
+    .home{
+        text-decoration: underline;
+        text-decoration-thickness: 4px;
+        text-decoration-color: #C92071;
+        text-underline-offset: 6px;
+    }
+    
