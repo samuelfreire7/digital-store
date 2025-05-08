@@ -12,8 +12,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* overflow-x: hidden; */
-    /* width: 100vw; */
 }
 
 body {
@@ -62,6 +60,44 @@ header.itens {
     cursor: pointer;
 }
 
+.linksheader {
+    display: flex;
+    gap: 13px;
+    font-size: medium;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 25px;
+    margin-left: 31px;
+}
+
+.linksheader a:hover {
+    color: #C92071;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    transform: translateY(-3px);
+
+}
+
+
+
+.linksheader a {
+    color: #474747;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.home {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #C92071;
+    text-underline-offset: 6px;
+}
+
 #barraPesquisa {
     width: 499px;
     height: 60px;
@@ -87,14 +123,6 @@ header.itens {
 
 .Pesquisar {
     color: #666666;
-}
-
-.imagem-principal {
-    width: 253px;
-    height: 44px;
-    /* margin-top: 42px;
-    margin-left: 104px; */
-    cursor: pointer;
 }
 
 #botaoLupa {
@@ -152,10 +180,23 @@ header.itens {
     margin-right: 100px; */
 }
 
+
 .itens-cadastro {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap: 20px;
     align-items: center;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
