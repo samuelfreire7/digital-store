@@ -695,7 +695,6 @@ footer {
     }
     .linksheader a:hover{
         color: #C92071;
-        text-decoration: dashed;
         text-decoration: underline;
         text-decoration-thickness: 3px;
         text-underline-offset: 6px;
