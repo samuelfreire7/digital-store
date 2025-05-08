@@ -12,8 +12,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* overflow-x: hidden; */
-    /* width: 100vw; */
 }
 
 body {
@@ -333,11 +331,13 @@ header.itens {
     width: 250px;
     height: 234px;
     margin-left: 138px;
+}
 
+.produtos_em_alta {
+    background-color: #F9F8FE;
 
 
 }
-
 
 .em_alta {
     display: grid;
@@ -345,6 +345,11 @@ header.itens {
 
     img {
         width: 290px;
+    }
+
+    .card {
+        border: none;
+        border-radius: 0%;
     }
 
 }
@@ -359,12 +364,26 @@ header.itens {
     font-size: 24px;
 }
 
+
 .body_em_alta {
-    background-color: rgb(211, 211, 211);
+    background-color: #F9F8FE;
 }
 
 .texto_em_alta {
     font-size: 24px;
+}
+
+.linkcolecao {
+    color: #C92071;
+    font-size: 18px;
+    font-family: inter;
+    text-decoration: none;
+}
+
+.titulocolecao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .paragrafo_em_alta {
@@ -381,7 +400,7 @@ header.itens {
     background-color: #E7FF86;
     border-radius: 50px;
     padding: 5px;
-    
+
 }
 
 
