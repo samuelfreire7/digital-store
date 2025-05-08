@@ -187,7 +187,13 @@ header.itens {
     gap: 20px;
     align-items: center;
 }
-
+.barra-especificaçoes {
+    font-family: "Inter";
+    font-size: 16px;
+}
+.div-do-tenis {
+    margin: 20px 100px 127px;
+}
 
 
 
