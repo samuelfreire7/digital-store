@@ -199,53 +199,51 @@ header.itens {
     text-decoration: none;
 }
 
-.carrossel {
-    .texto_na_imagem {
-        position: absolute;
-        top: 40%;
-        left: 30%;
-        transform: translate(-50%, -50%);
-        color: rgb(0, 0, 0);
-        font-size: 24px;
-        font-weight: bolder;
+.texto_na_imagem {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bolder;
+}
 
-        h1 {
-            font-weight: 750;
-            font-size: 64px;
-        }
+.texto_na_imagem h1 {
+    font-weight: 750;
+    font-size: 64px;
+}
 
-        p {
-            font-weight: 400;
-            font-size: 19.44px;
-            line-height: 36.72px;
-            letter-spacing: 0.81px;
-            color: #474747;
-        }
+.texto_na_imagem p {
+    font-weight: 400;
+    font-size: 19.44px;
+    line-height: 36.72px;
+    letter-spacing: 0.81px;
+    color: #474747;
+}
 
-        .oferta {
-            color: orange;
-            font-weight: 900;
-        }
+.texto_na_imagem .oferta {
+    color: orange;
+    font-weight: 900;
+}
 
-        img {
-            width: 70px;
-            position: absolute;
-            top: 35%;
-            left: 75%;
-        }
-    }
+.texto_na_imagem img {
+    width: 70px;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+}
 
-    .tenis_banner {
-        position: absolute;
-        top: 20px;
-        left: 45%;
-    }
+.tenis_banner {
+position: absolute;
+top: 20px;
+left: 45%;
+}
 
-    .ornamento {
-        position: absolute;
-        top: 20px;
-        left: 90%;
-    }
+.ornamento {
+position: absolute;
+top: 20px;
+left: 90%;
 }
 
 .botao1 {
