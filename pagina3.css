@@ -187,23 +187,58 @@ header.itens {
     gap: 20px;
     align-items: center;
 }
+
 .barra-especificaçoes {
     font-family: "Inter";
     font-size: 16px;
 }
+
 .div-do-tenis {
-    margin: 20px 100px 127px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 450px;
 }
-.carrossel-image {
-    background-color: rgba(226, 227, 255, 1);
-}
+
 .especificacoes {
     display: flex;
     flex-direction: row;
 }
+
+.carousel-item {
+    background-color: 1#E2E3FF;
+    width: 700px;
+    height: 500px;
+}
+
+.carousel-inner {
+    width: 710px;
+    height: 500px;
+    background-color: #E2E3FF;
+}
+
+.carousel-inner img {
+    margin: 100px;
+}
+
+.slide2 {
+    background-color: #FFE8BC;
+}
+
+.slide3 {
+    background-color: #FFC0BC;
+}
+
+.slide4 {
+    background-color: #DEC699;
+}
+
+.slide5 {
+    background-color: #E8DFCF;
+}
+
+
+
+
+
 
 
 
@@ -238,17 +273,20 @@ footer {
         justify-content: left;
         gap: 15px;
         font-family: Inter;
-        h3{
+
+        h3 {
             font-size: 18px;
         }
-        p{
+
+        p {
             font-size: 16px;
             cursor: pointer
         }
-        p:hover{
+
+        p:hover {
             color: #C92071;
-            }
-        
+        }
+
     }
 
     .logod {
@@ -300,6 +338,7 @@ footer {
 .search-bar button:hover {
     background-color: #333;
 }
+
 .divFinal {
     margin: 75px 0px 0px;
     display: grid;
