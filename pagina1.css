@@ -385,6 +385,11 @@ left: 90%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.em_alta a{
+    text-decoration: none;
+    color: #474747;
+}
+
 .presos {
     display: flex;
     justify-content: center;
@@ -434,7 +439,6 @@ left: 90%;
     background-color: #E7FF86;
     border-radius: 50px;
     padding: 5px;
-
 }
 
 #colecoes {
