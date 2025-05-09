@@ -193,9 +193,17 @@ header.itens {
 }
 .div-do-tenis {
     margin: 20px 100px 127px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-
-
+.carrossel-image {
+    background-color: rgba(226, 227, 255, 1);
+}
+.especificacoes {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
