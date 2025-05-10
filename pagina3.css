@@ -207,50 +207,6 @@ header.itens {
     gap: 50px;
 }
 
-.detalhes-tenis {
-    width: 100%;
-}
-
-.detalhes-tenis .texto_detalhes_tenis {
-    color: #666666;
-    font-family: inter;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22px;
-}
-
-.estrlas {
-    display: flex;
-    gap: 10px;
-}
-
-.estrlas img {
-    width: 100px;
-    height: 20px;
-}
-
-.avaliacao {
-    background-color: #F6AA1C;
-    width: 63px;
-    height: 23px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    color: #FFFFFF;
-    font-family: inter;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-.avaliacao img {
-    width: 11px;
-    height: 10px;
-}
-
-
 .especificacoes {
     display: flex;
     /* flex-direction: row; */
@@ -288,6 +244,183 @@ header.itens {
 .slide5 {
     background-color: #E8DFCF;
 }
+
+
+
+.detalhes-tenis {
+    width: 100%;
+}
+
+.detalhes-tenis .texto_detalhes_tenis {
+    color: #666666;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+
+.estrlas {
+    display: flex;
+    gap: 10px;
+}
+
+.estrlas img {
+    width: 100px;
+    height: 20px;
+}
+
+.avaliacao {
+    background-color: #F6AA1C;
+    width: 63px;
+    height: 23px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    color: #FFFFFF;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.avaliacao img {
+    width: 11px;
+    height: 10px;
+}
+
+.preco_detalhes-tenis {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.preco_detalhes-tenis_promocao {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #474747;
+}
+
+.preco_detalhes-tenis_real {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-decoration: line-through;
+    color: #CCCCCC;
+
+}
+
+.texto_descricao_tenis {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+
+}
+
+.titulo_detalhes_tenis,
+.tilulo_cor_detalhes-tenis {
+    display: flex;
+    margin-top: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+}
+
+.tamanho_detalhes-tenis {
+    display: flex;
+    gap: 20px;
+}
+
+.tamanho_detalhes-tenis button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: #ccc8c8;
+    color: #474747;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+    border: none;
+}
+
+.tamanho_detalhes-tenis button:active {
+    background-color: #C92071;
+}
+
+.botoes_detalhes-tenis button {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botoes_detalhes-tenis button:active {
+    border: 4px solid #C92071;
+}
+
+.cor_button1 {
+    background-color: #6FEEFF;
+}
+
+.cor_button2 {
+    background-color: #FF6969;
+}
+
+.cor_button3 {
+    background-color: #5E5E5E;
+}
+
+.cor_button4 {
+    background-color: #6D70B7;
+}
+
+.botao_comprar_detalhes-tenis {
+    width: 220px;
+    height: 48px;
+    background-color: #FFB31F;
+    border-radius: 8px;
+    border: none;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 
@@ -387,26 +520,29 @@ header.itens {
     height: 96px;
 }
 
-.imagen1 {
+.imagem1 {
     background-color: #E2E3FF;
     border: 3px solid #C92071;
 }
 
-.imagen2 {
+.imagem2 {
     background-color: #FFE8BC;
 }
 
-.imagen3 {
+.imagem3 {
     background-color: #FFC0BC;
 }
 
-.imagen4 {
+.imagem4 {
     background-color: #DEC699;
 }
 
-.imagen5 {
+.imagem5 {
     background-color: #E8DFCF;
 }
+
+
+
 
 
 
