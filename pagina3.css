@@ -188,15 +188,17 @@ header.itens {
     align-items: center;
 }
 
-.barra-especificaçoes {
-    font-family: "Inter";
-    font-size: 16px;
-}
-
 .div-do-tenis {
     display: grid;
     grid-template-columns: 450px;
+    margin-left: 100px;
 }
+.barra-especificaçoes {
+    font-family: "Inter";
+    font-size: 16px;
+    width: 600px;
+}
+
 
 .especificacoes {
     display: flex;
