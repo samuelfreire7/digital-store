@@ -29,7 +29,6 @@ header.logo {
     align-items: center;
     gap: 15px;
     color: #C92071;
-
 }
 
 header.logo img {
@@ -198,35 +197,33 @@ header.itens {
 }
 
 .div-do-tenis {
-    width: 100%;
     display: flex;
-    /* display: grid;
-    grid-template-columns: 450px; */
-    /* margin-left: 200px; */
     background-color: #F9F8FE;
     gap: 50px;
+    width: 100%;
 }
 
 .especificacoes {
     display: flex;
-    /* flex-direction: row; */
-    /* margin-left: 100px; */
+    margin-left: 100px;
+    width: 35%;
 }
 
 .carousel-item {
     background-color: 1#E2E3FF;
     width: 700px;
-    height: 500px;
+    height: 600px;
 }
 
 .carousel-inner {
-    width: 710px;
-    height: 500px;
+    width: 810px;
+    height: 600px;
     background-color: #E2E3FF;
 }
 
 .carousel-inner img {
     margin: 100px;
+    margin-top: 150px; 
 }
 
 .slide2 {
@@ -245,11 +242,45 @@ header.itens {
     background-color: #E8DFCF;
 }
 
+.imagenszinhas{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px 0px 0px;
+}
 
+.imagenszinhas img {
+    border-radius: 4px;
+    width: 100px;
+    height: 96px;
+    
+}
+
+.imagem1 {
+    background-color: #E2E3FF;
+    border: 3px solid #C92071;
+}
+
+.imagem2 {
+    background-color: #FFE8BC;
+}
+
+.imagem3 {
+    background-color: #FFC0BC;
+}
+
+.imagem4 {
+    background-color: #DEC699;
+}
+
+.imagem5 {
+    background-color: #E8DFCF;
+}
 
 .detalhes-tenis {
-    width: 100%;
-}
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+ }
 
 .detalhes-tenis .texto_detalhes_tenis {
     color: #666666;
@@ -258,8 +289,6 @@ header.itens {
     font-size: 14px;
     line-height: 22px;
 }
-
-
 
 .estrlas {
     display: flex;
@@ -400,6 +429,7 @@ header.itens {
 }
 
 .botao_comprar_detalhes-tenis {
+    margin-top: 25px;
     width: 220px;
     height: 48px;
     background-color: #FFB31F;
@@ -417,22 +447,15 @@ header.itens {
 
 
 
-
-
-
-
-
-
-
 .titulo_produtos_relacionados {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-left: 100px; */
+    margin-left: 100px;
+    background-color: #F9F8FE;
 }
 
 .h1_produtos_relacionados {
-
     text-align: left;
     margin-left: 1px;
     margin-top: 38px;
@@ -513,33 +536,7 @@ header.itens {
 }
 
 
-.imagenszinhas img {
-    border-radius: 4px;
-    /* margin-left: 100px; */
-    width: 100px;
-    height: 96px;
-}
 
-.imagem1 {
-    background-color: #E2E3FF;
-    border: 3px solid #C92071;
-}
-
-.imagem2 {
-    background-color: #FFE8BC;
-}
-
-.imagem3 {
-    background-color: #FFC0BC;
-}
-
-.imagem4 {
-    background-color: #DEC699;
-}
-
-.imagem5 {
-    background-color: #E8DFCF;
-}
 
 
 
