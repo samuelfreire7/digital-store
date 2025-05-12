@@ -173,10 +173,11 @@ header.itens {
 
 .resultado_produtos {
     display: flex;
-    gap: 10px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .titulo_resultado {
@@ -224,6 +225,7 @@ header.itens {
     width: 50%;
     height: 60px;
     font-weight: 400;
+    background-color: #F9F8FE;
 
 }
 
@@ -232,16 +234,30 @@ header.itens {
     height: 720px;
     border-radius: 4px;
     padding: 30px;
-    background-color: aqua;
+    background-color: white;
 }
 
 .uniao {
     display: flex;
     gap: 30px;
     background-color: #F9F8FE;
-    height: 100vh;
+    justify-content: center;
+}
+.todos_cards{
+    display: flex;
+    display: inline;
+    align-items: center;
+    justify-content: center;
 }
 
+.config_cards {
+    display: flex;
+    gap: 35px;
+
+    align-items: center;
+    justify-content: center;
+    
+}
 
 .em_alta {
     display: flex;
@@ -250,6 +266,7 @@ header.itens {
     margin-bottom: 40px;
     border: none;
     height: 440px;
+    background-color: #F9F8FE;
 }
 
 .card-img-top {
@@ -285,7 +302,7 @@ header.itens {
     font-size: 24px;
 }
 
-.em_alta a{
+.em_alta a {
     text-decoration: none;
     color: #474747;
 }
@@ -293,7 +310,6 @@ header.itens {
 .precos {
     display: flex;
     justify-content: center;
-
 }
 
 
