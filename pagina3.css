@@ -194,7 +194,8 @@ header.itens {
 .div-do-tenis {
     margin: 20px 100px 127px;
     min-height: 100vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: 450px;
     flex-direction: column;
 }
 .carrossel-image {
