@@ -4,73 +4,432 @@
     font-family: sans-serif;
 }
 
-body, html {
+body,
+html {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #F9F8FE;
 }
+
+header {
+    width: 100%;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #C92071;
+}
+
+header .logo img {
+    width: 33px;
+    height: 33px;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 0px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #C92071;
+}
+
+header.itens {
+    margin: 0;
+    display: flex;
+    gap: 0;
+    align-items: center;
+    padding: 0;
+    border: 30px;
+    justify-content: center;
+    list-style: none;
+    color: rgb(112, 110, 110);
+    cursor: pointer;
+}
+
+.linksheader {
+    display: flex;
+    gap: 13px;
+    font-size: medium;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 25px;
+    margin-left: 31px;
+}
+
+.linksheader a:hover {
+    color: #C92071;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    transform: translateY(-3px);
+
+}
+
+.linksheader a {
+    color: #474747;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.produtos {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #C92071;
+    text-underline-offset: 6px;
+}
+
+#barraPesquisa {
+    width: 499px;
+    height: 60px;
+    border: 0px;
+    border-radius: 8px 0 0 8px;
+    background-color: #4747470a;
+    padding-inline-start: 25px;
+}
+
+.search-bar button:hover {
+    background-color: #333;
+}
+
+.inicio {
+    display: flex;
+    gap: 0;
+    margin: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Pesquisar {
+    color: #666666;
+}
+
+#botaoLupa {
+
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-color: #4747470a;
+    border: 0px;
+    border-radius: 0 8px 8px 0;
+    width: 60px;
+    height: 60px;
+    margin-top: 34px;
+    margin-left: 0;
+}
+
+#cadastro {
+    width: 102px;
+    height: 28px;
+    text-decoration: underline;
+    color: black;
+}
+
+#botaoEntrar {
+    width: 114px;
+    height: 40px;
+    color: #f5f5f5;
+    background-color: #C92071;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: #333;
+    cursor: pointer;
+}
+
+#botaoEntrar:hover {
+    background-color: #4f061e;
+}
+
+#iconeCarrinho {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGjSURBVHgB1ZTLUcMwFEWvFPakBFEBySowLAgVpATSAXYFCQ0QpwKGCggV4A3DdwaXoHTgJTDE4sof4iERTow3nJlEH9u6eu9dCfjviKJzr7yhBOKEv0MdhGgIueyIEfWu2d4+KD9AQ3wL9PRk7xOmawAtYXbRELI8ONJBxMU1I1FoiJ2fEwtgTtXBk/IuUQMDyTomU9ZRrxXIaRuIPmphVAuiw86JS0DbP1sT1IBuHGeGyZAr+rSpbV+V10YNJOQ+m6gYr0QgcgEjWtZJMTbYpYHxD3QQZN8n3JiInQLIU/RuFjZF83UCPIyzNNblOFyKiQ6fXFUKEAUH1s4opaHApvWDBkFq9QyJBnkDrHtsbJFToPAvfonAhUx3n6YsLs2tYq8LevkYW8JDNrBtnsIUx0EzUxZr8qh8gy0lEojz8oxwvUor9tn0sR1hk1f9RjgjeFbeiOEOeYimxSFy8aL8U16SYy436+kLv/xsbZGtn7k4P4ASEGeogIt7SF1nvDvldSoFujqIBUxo+6zyDSpglOnJZTqisoMqYaHVpu/WvRz/zBeFHY3gm22JsQAAAABJRU5ErkJggg==);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    width: 33px;
+    height: 29px;
+}
+
+
+.itens-cadastro {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.resultado_produtos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.titulo_resultado {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.titulo_resultado .titulo1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.titulo_resultado .titulo2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.ordenar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.label_ordenar {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.selecionar_preco {
+    border-left: none;
+    width: 50%;
+    height: 60px;
+    font-weight: 400;
+    background-color: #F9F8FE;
+
+}
+
+.filtro {
+    width: 308px;
+    height: 720px;
+    border-radius: 4px;
+    padding: 30px;
+    background-color: white;
+}
+
+.uniao {
+    display: flex;
+    gap: 30px;
+    background-color: #F9F8FE;
+    justify-content: center;
+}
+.todos_cards{
+    display: flex;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.config_cards {
+    display: flex;
+    gap: 35px;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.em_alta {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    border: none;
+    height: 440px;
+    background-color: #F9F8FE;
+}
+
+.card-img-top {
+    width: 290px;
+    transform: rotateY(10deg) rotateX(5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.promoçao_em_alta {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: #E7FF86;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.texto_em_alta {
+    font-size: 24px;
+    text-align: center
+}
+
+.valor_em_alta {
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+.descontos {
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.em_alta a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.precos {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     background-color: #1f1f1f;
     color: white;
     padding: 72px 104px 10px;
     display: grid;
     justify-content: center;
+}
 
+footer .sera {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    font-size: small;
 
-    .sera {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        font-size: small;
+}
 
+footer .informaçao,
+.categoria,
+.contato {
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+    font-family: Inter;
+
+    h3 {
+        font-size: 18px;
     }
 
-    .informaçao,
-    .categoria,
-    .contato {
-        margin-left: 110px;
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        gap: 15px;
-        font-family: Inter;
-        h3{
-            font-size: 18px;
-        }
-        p{
-            font-size: 16px;
-            cursor: pointer
-        }
-        p:hover{
-            color: #C92071;
-            }
-        
+    p {
+        font-size: 16px;
+        cursor: pointer
     }
 
-    .logod {
-        margin-right: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-
+    p:hover {
+        color: #C92071;
     }
 
-    .logos {
-        /* img {
-            width: 20px;
-        } */
+}
 
-        display: flex;
-        gap: 20px;
+footer .logod {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 
-    }
+}
 
-    .copy {
-        text-align: center;
-        font-size: 13px;
-    }
+footer .logos {
+    display: flex;
+    gap: 20px;
 
+}
 
+footer .copy {
+    text-align: center;
+    font-size: 13px;
 }
 
 .search-bar input {
@@ -96,6 +455,7 @@ footer {
 .search-bar button:hover {
     background-color: #333;
 }
+
 .divFinal {
     margin: 75px 0px 0px;
     display: grid;
@@ -104,4 +464,3 @@ footer {
     align-content: center;
     margin-bottom: 1rem;
 }
-
