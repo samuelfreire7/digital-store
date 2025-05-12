@@ -176,8 +176,7 @@ header.itens {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-bottom: 20px;
 }
 
 .titulo_resultado {
@@ -233,15 +232,15 @@ header.itens {
     width: 308px;
     height: 720px;
     border-radius: 4px;
-    padding: 30px;
     background-color: white;
 }
 
 .uniao {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     background-color: #F9F8FE;
     justify-content: center;
+    width: 100%;
 }
 .todos_cards{
     display: flex;
@@ -253,7 +252,6 @@ header.itens {
 .config_cards {
     display: flex;
     gap: 35px;
-
     align-items: center;
     justify-content: center;
     
@@ -262,10 +260,7 @@ header.itens {
 .em_alta {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-bottom: 40px;
     border: none;
-    height: 440px;
     background-color: #F9F8FE;
 }
 
